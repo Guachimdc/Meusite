@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Bootstrap</title>
+</head>
+<body>
+   <header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Minha Página Bootstrap</a>
+    <div class="collapse navbar-collapse">
+        <ul class=" navbar-nav mr-auto">
+<li class="nav-item"><a class="nav-link" href="#section1">Seção 1</a></li>
+<li class="nav-item"><a class="nav-link" href="#section1">Seção 2</a></li>
+<li class="nav-item"><a class="nav-link" href="#section1">Seção 3</a></li>
+        </ul>
+    </div>
+</nav>    
+   </header> 
+<main>
+    <div class="container" id="section1">
+<h2>Seção 1</h2>
+<p>Texto da primeira seção</p>
+    </div>
+    <div class="container" id="section2">
+        <h2>Seção 2</h2>
+        <p>Texto da segunda seção</p>
+        <div class="container" id="section3">
+            <h2>Seção 3</h2>
+            <p>Texto da terceira seção</p>
+</main>
+<footer>
+    <div class="container text-center">
+<p>&copy; 2023 Minha página Bootstrap</p>
+    </div>
+</footer>
+</body>
+</html>
